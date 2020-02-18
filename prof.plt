@@ -14,7 +14,7 @@
    set xr [ -1.1 : 1.1 ]
    set format y '%2.1e'
    unset colorbox
-   set tit 'Chebyshev Tn' offset @POSITION
+   set tit 'Interpolation Function hk' offset @POSITION
    #  set size square
    set autoscale y
    #  set yr [ -1.1 : 1.1 ]
@@ -27,4 +27,6 @@
    'out.dat' u 1:7 w lp pt 7 ps 0.4 lc rgb "#000000" notit, \
    'out.dat' u 1:8 w lp pt 7 ps 0.4 lc rgb "#000000" notit, \
    'out.dat' u 1:9 w lp pt 7 ps 0.4 lc rgb "#000000" notit, \
-   'out.dat' u 1:10 w lp pt 7 ps 0.4 lc rgb "#000000" notit
+   'out.dat' u 1:10 w lp pt 7 ps 0.4 lc rgb "#000000" notit, \
+   'out.dat' u 1:11 w lp pt 7 ps 0.4 lc rgb "#000000" notit, \
+   'out.dat' u 1:12 w lp pt 7 ps 0.4 lc rgb "#000000" notit
