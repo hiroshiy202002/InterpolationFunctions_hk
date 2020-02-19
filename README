@@ -1,0 +1,9 @@
+Lagrange interpolation
+
+   a(x) = sum_{k=0}^{N} a_k * h_k(x)
+
+   a_k: ガウス・ロバット点上の離散値
+   h_k(x): 内挿関数
+   a(x): 近似関数
+
+Spectral Element Method由来の内挿関数を用いた.
